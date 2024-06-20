@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "ES2020", //investigar este
+        "paths": { "@/*": ["./src/*"] }, //investigar este
+        "useDefineForClassFields": true,  //investigar
+        "lib": ["ES2020", "DOM", "DOM.Iterable"], //investigar
+        "module": "NodeNext",  //insvestigar
+        "skipLibCheck": true, //inverstigar
+        "esModuleInterop": true, //investigar
+
+        // Bundler Mode
+        "isolatedModules": true, //insvestigar
+        
+        // linting
+        "strict": true, //insvestigar
+        "noUnusedLocals": true, //insvestigar
+        "noUnusedParameters": true, //insvestigar
+        "noFallthroughCasesInSwitch": true, //insvestigar 
+        "outDir": "./dist",
+        "rootDir": "./src",
+        
+        
+    },
+    "include": ["src"],
+}

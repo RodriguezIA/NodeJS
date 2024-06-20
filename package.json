@@ -1,0 +1,24 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node -r tsconfig-paths/register ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "Edgar Alan Rodriguez Amador",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.6",
+    "@types/pg": "^8.11.6",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "dependencies": {
+    "pg": "^8.12.0"
+  }
+}
